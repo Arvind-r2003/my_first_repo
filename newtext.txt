@@ -4,4 +4,19 @@ int main() {
     printf("hello\n");
     return 0;
 }
-hui
+
+
+from tkinter import Label, Tk
+
+# Create the main window
+root = Tk()
+
+# Create a label with the text "Arvind"
+label = Label(root, text="Arvind")
+
+# Display the label
+label.pack()
+
+# Run the application
+root.mainloop()
+
